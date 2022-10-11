@@ -6,7 +6,6 @@ body {
     transform: translate(-35%, -60%);
     background: rgb(51,52,82);
     background: radial-gradient(circle, rgba(51,52,82,1) 0%, rgba(85,85,103,1) 100%);
-
 }
 .tabela {
   font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +21,11 @@ body {
   border-bottom: 2px solid white; 
   border-right: 2px solid white; 
   background: #555567;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #343558;
+  color: white;	
 }
 .tabela td {
   padding: 1em;
@@ -29,21 +33,9 @@ body {
   border-bottom: 1px solid white; 
   border-right: 1px solid white; 
 }
-.tabela td {
-  padding: 1em;
-  background: #464874;
-  border-bottom: 2px solid white; 
-}
-.tabela th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background: #343558;
-  color: white;	
-}
+
 caption {
     font-family: Arial, sans-serif;
-    text-shadow: 13px 4px 47px rgba(66, 68, 90, 1);
 	font-size: 30px;
     color: whitesmoke;
 	line-height: 2.7;
