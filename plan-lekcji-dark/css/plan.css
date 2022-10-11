@@ -1,0 +1,71 @@
+@charset "utf-8";
+body {
+    margin: 1.5em;
+    background: rgb(51,52,82);
+    background: radial-gradient(circle, rgba(51,52,82,1) 0%, rgba(85,85,103,1) 100%);
+
+}
+.tabela {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 1.5em;
+  border: 2px solid;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 3px rgba(206, 206, 206, 1);
+}
+.tabela th {
+  padding: 1.2em;
+  border-bottom: 2px solid white; 
+  border-right: 2px solid white; 
+  background: #555567;
+}
+.tabela td {
+  padding: 1em;
+  background: #464874;
+  border-bottom: 2px solid white; 
+  border-right: 2px solid white; 
+}
+.tabela td {
+  padding: 1em;
+  background: #464874;
+  border-bottom: 2px solid white; 
+}
+.tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #343558;
+  color: white;	
+}
+caption {
+    font-family: Arial, sans-serif;
+    text-shadow: 13px 4px 47px rgba(66, 68, 90, 1);
+	font-size: 30px;
+    color: whitesmoke;
+	line-height: 2.7;
+}
+span {
+	font-size: 18px;
+	color: whitesmoke;
+
+}
+a:link {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  color: black;
+  font-size: 18px;
+}
+.g {
+	font-size: 18px;
+	color: whitesmoke;
+    text-align: center;
+}
+.nr {
+	font-size: 18px;
+	color: whitesmoke;
+	text-align: center;
+}
